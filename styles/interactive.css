@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #F4F6FA;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    color: #263D5A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #2563EB;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-grow {
+    background-color: #DCE7F5;
+    color: #263D5A;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    background-color: #2563EB;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #1D4ED8;
+}
+
+a:focus {
+    outline: 2px solid #263D5A;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #263D5A;
+}
