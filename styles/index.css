@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+
+header {
+    background-color: #243b63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#components h2,
+#pages h2 {
+    color: #243b63;
+    font-size: 22px;
+}
+
+
+main {
+    width: 600px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+main ul {
+    padding-left: 20px;
+}
+
+main a {
+    color: #e58b3d;
+    font-size: 15px;
+}
+
+main a:hover {
+    color: #243b63;
+}
+
+footer {
+    background-color: #dce6f2;
+    color: #555;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
